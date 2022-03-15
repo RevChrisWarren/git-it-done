@@ -15,7 +15,7 @@ var getRepoName= function() {
         getRepoIssues(repoName);
     } else {
         // if no repo was given, redierct to the homepage
-        document.location.replace("./index/html");
+        document.location.replace("./index.html");
     } 
 };
 
@@ -37,7 +37,7 @@ var getRepoName= function() {
             });    
         } else {
             // if not successful, redirect to homepage
-            document.location.replace(".index/html");
+            document.location.replace("./index.html");
         }
     });
 };
